@@ -1,8 +1,8 @@
 import * as aws from "@pulumi/aws";
 
 // Create an AWS resource (S3 Bucket)
-const bucket = new aws.s3.Bucket("primeiro-bucket-pos-full-stack-360",{
-  bucket: "primeiro-bucket-pos-full-stack-360",
+const bucket = new aws.s3.Bucket("primeiro-bucket-pos",{
+  bucket: "primeiro-bucket-pos",
   tags: {
     IAC: "true"
   }
